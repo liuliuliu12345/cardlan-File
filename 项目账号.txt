@@ -1,0 +1,50 @@
+gitlab 地址：
+	http://39.108.1.139:18081/
+	yongjie.liu 
+	liuyongjie123
+
+卡联运平台系统（可登陆其他商户）
+	http://120.79.250.76:81/
+	BS  cardlan#^&*123
+	admin 2014IU879k$#><*
+
+svn地址
+	https://172.0.0.214/svn/cardlan_dev/carlan/code/cln-api
+
+一键部署118测试
+	http://172.0.8.3:8082/  
+	dev   
+	cl2008	
+
+一键部署新商户（生产）：
+	http://39.108.1.139:18082/  
+	账号：liuyongjie 
+	密码：LKDiewo15227
+
+http://120.77.60.118/
+	admin
+	cardlan
+
+油快付管理系统
+	https://gas.cardlan.com/login
+	004744
+	ceshi
+	123456
+
+卡联新云平台 - 生产
+	https://op.cardlan.com/login
+	admin
+	Cardlan20190719
+
+
+旧商户系统 118测试
+	http://47.107.120.118:8298/login
+
+新系统 118 测试
+	http://172.0.8.5:2996/login
+
+新商户系统118外网：
+	http://47.107.120.118:8821
+
+118服务器:  47.107.120.118   
+	 密码：&^UHFkjgf(*@EDklll(098o

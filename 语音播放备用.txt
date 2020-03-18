@@ -1,0 +1,35 @@
+      <div id="wrapp"
+           style="width: 0;height: 0;"></div>
+   
+
+
+ playFn (module) {
+      let data = {
+        gunNo: module.gunNo,
+        payMoney: Number(module.payMoney),
+        phone: module.phone
+      }
+      let storageRate = localStorage.getItem('rate')
+      let spdNum = Number(storageRate) || 5
+
+      let gunNo = Number(data.gunNo) // 油枪
+      let payMoney = data.payMoney ? parseFloat(data.payMoney / 100) : 0 // 交易金额
+      let phone = String(data.phone.substr(data.phone.length - 4)) // 截取手机号后4位数:8652
+      let newPhone = phone.split('').join(' ') // 尾数用空格隔开: 8 6 5 2
+
+      var ttsDiv = document.getElementById('wrapp')
+      var ttsText = `尾号${newPhone}在${gunNo}号油枪支付金额${payMoney}元`
+
+      var au1 = '<audio id="wrapp_aud" autoplay="autoplay">'
+      var sss =
+        '<source src="http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&spd=' +
+        spdNum +
+        '&text=' +
+        ttsText +
+        '" type="audio/mpeg">'
+      var au2 = '</audio>'
+      ttsDiv.innerHTML = au1 + sss + au2
+      var ttsAudio = document.getElementById('wrapp_aud')
+      ttsAudio.play()
+      // spd:语速，取值0-15，默认为5中语速
+    }

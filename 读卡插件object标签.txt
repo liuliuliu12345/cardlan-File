@@ -1,0 +1,30 @@
+参考：https://blog.csdn.net/guorun18/article/details/50311619
+
+在ＩＥ中使用ActiveX控件，需要使用HTML中的标志是<OBJECT＞，该标记几个重要的参数特性有：
+1．ID:为控件提供一个标识名称，为HTML代码提供一种访问该控件的入口。
+2．CLASSID：是该控件唯一的UID，告诉IE装入哪个对象。如果使用已经开发好的控件，它的CLASSID可以在系统的注册表中查找。在注册表中展开HKEY—CLASSES—BOOT项，可以看到按字母顺序排列的注册表，找到需要使用的控件名，展开时可看到—个CLASSID活页夹，里面就是该控件的CLASSID。
+3．CODEBASE：如果在用户机器上没有控件的当前版本，该参数告诉用户浏览器在哪里可找到要下载的控件和最新版本号．当控件作了修改后，可以更改版本号强制用户重新下载。
+4．PARAM：该标记用于设置控件的初始属性值，它有两个特性：Name 和 Value，即属性名称和属性值。
+此外还有一些标记，如：Width表示该控件所占的宽度，Height表示高度等，总体来说，这样一个插入控件的HTML代码和插入Java Applet的HTML代码非常相似。
+以下是嵌有ActiveX控件的HTML代码例程：
+<OBJECT
+ID= "MyControl"
+CLASSID="classid：051D1245 - 9821 - 24G5 - 87CI - 01A044C9698AC"
+CODEBASE="http：/ /www.abcd.ef/mycontrol.ocx#version = 1, 0 ,0 ,0"
+WIDTH = 200
+HEIGHT = 100
+ALIGN = center
+HSPACE = 0
+VSPACE = 0
+> < / OBJECT>
+如果希望控件还能在Netscape中运行，除了Netscape需加装插件外，HTML也要加一些附加标记。如果是自己开发的OCX控件，则有些用户第一次访问时除了下载OCX文件外，还要下载相应的DLL文件，使用VB5开发的OCX控件，可以打包成在客户端自解压安装的CAB文件（在以下详述）。以下为Netscape中的例程：
+<OBJECT
+ALIGN = “CENTER" CLASSID=“clsid:051D1245-9821-24G5-87CI- 01A044C9698AC"
+WIDTH =“600" HEIGHT =“300" ID =“marquee&quot;"
+CODEBASE="http：/ /www.abcd.ef/mycontrol.ocx#version = 1, 0 ,0 ,0" >
+<EMBED
+ALIGN = "CENTER" CLASSID = "clsid:051D1245-9821-24G5-87CI-01A044C9698AC"
+WIDTH = "1200" HEIGHT = "900" ID ="marquee&quot;"
+CODEBASE="http：/ /www.abcd.ef/mycontrol.ocx#version = 1, 0 ,0 ,0" >
+TYPE = "application / oleobject"
+></ OBJECT>

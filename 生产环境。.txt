@@ -1,0 +1,15 @@
+旧商户报表系统:  http://cms.cardlan.com/index   http://120.79.237.251/index
+
+旧商户系统118环境 http://47.107.120.118（预生产）
+
+BS商户平台（一键登陆） http://120.79.250.76:81       账号：BS 密码：cardlan#^&*123
+
+大数据看板：http://120.77.60.118 账号： 1， 密码：123456
+
+预生产环境新运营平台：https://47.107.120.118:8791/login (部署预生产，数据是正式库)
+
+新云平台：https://op.cardlan.com 账号：admin 密码：Cardlan20190719
+
+油快付管理系统：https://gas.cardlan.com  商户号：004321 账号：ceshi 密码：123456
+
+新商户管理系统 https://cms.cardlan.com:8443/home 商户号：555555  账号：admin  密码：123456

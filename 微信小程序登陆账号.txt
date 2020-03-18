@@ -1,0 +1,15 @@
+乘车码小程序(邦客惠)
+1.测试：cardlanzhr@qq.com  Abc@12345
+2.正式:  2853226739@qq.com  cardlan@2018
+
+无感加油支付小程序 
+2853225396@qq.com
+cardlan@2019
+
+
+宜仓司机端小程序（账号是宜仓那边申请的）
+llh87@foxmail.com
+密码是:ycjy002627
+
+小程序官网：https://mp.weixin.qq.com
+https://172.0.0.214/svn/cardlan_dev/carlan/code/

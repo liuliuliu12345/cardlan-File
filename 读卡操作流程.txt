@@ -1,0 +1,13 @@
+1.本地电脑安装插件：CardReaderActiveX （可以问测试）
+2.  html:页面有读卡的功能，在html页面添加object标签:  （标签是隐藏的）
+  classid：是该控件唯一的UID，告诉IE装入哪个对象。
+  codebase：如果在用户机器上没有控件的当前版本，该参数告诉用户浏览器在哪里可找到要下载的控件 -->
+    <object ref="readerSys"
+            class="object-h0"
+            classid="clsid:738556B2-D6AE-41B1-969A-70A7A3124917"
+            codebase="Downloads/CardReader.cab"></object>
+
+3.javascript：点击读卡后 =》1.1：首先判断是否用 的是ie浏览器（插件只能用在ie上）如果不是ie浏览器，提示使用ie浏览器。如果用的是ie,就判断是否安装ocx插件。
+2.1：获取html dom元素 （Object标签的dom元素(其实就是引用插件的方法)，，然后调用读取key的方法（fnGenSessionKey），然后读取序列号的方法，（fnRequestCardEx（如果没读到序列号就退出程序），（注意：前端就把key,和序列号读出来给后端就行，卡片存的就这两个东西）。
+3.1：调用方法判断卡片类型（fnGetCardType（M1卡和CPU卡）两种卡读取方法不一样，cpu卡复杂很多
+4.1：调取后端的接口，把密钥和序列号传给后端解密：然后后端解密>返回数据，拿到解密后的key：前端调取fnReadM1CardEx方法判断密钥（密钥是否正确，卡片是否错误）然后把这方法fnReadM1CardEx返回的数据又传给后端，后端返回卡片信息（读卡成功，以上是M1卡读卡）

@@ -1,0 +1,12 @@
+gas_agent: 代理商表
+gas_device: 设备表
+gas_device_factory: 设备厂家表
+gas_oil_gun: 油枪表
+gas_order: 交易订单表
+gas_rate：费率表
+gas_rate_agent: 代理商费率表
+gas_station: 油站表
+gas_user_plate: 用户车牌关联表
+gas_user_trace: 用户足迹表
+
+          

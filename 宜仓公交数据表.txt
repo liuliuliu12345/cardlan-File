@@ -1,0 +1,9 @@
+t_city_driver:城际司机表
+t_bus_schedule:班次表
+t_bus_number:车次表
+t_driver_store:司机收藏表
+t_advertise:广告管理表
+t_app_subsidy_rule:APP充值补贴规则表
+t_app_banner:轮播图
+t_city_driver:城际司机表
+t_app_mer_account: app用户信息管理

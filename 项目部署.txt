@@ -1,0 +1,27 @@
+新云平台：
+	url：172.0.8.6 
+	账号：root 
+	密码：cardlan 
+	端口：22
+	文件目标：/home
+
+新商户平台部署8.5地址：
+                url：172.0.8.5
+	账号：root 
+	密码：szCardLan520
+	端口：80
+	文件目标：/home/cardlan/project/new-merchant-web
+
+新商户平台一键自动部署线上：
+	URL： http://172.0.8.3:8082
+	账号： dev   
+	密码：cl2008
+
+
+新油快付管理平台
+	 url：172.0.8.2
+	账号：root 
+	密码：cardlan
+	端口：22
+	文件目标：/home/cardlan/oil-client/html
+	
