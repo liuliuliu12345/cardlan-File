@@ -1,0 +1,52 @@
+﻿母卡转移,Mother Card transfer
+终端对卡片充值,recharge from terminal to card
+母卡对终端充值recharge from Mother card to terminal
+终端对母卡充值recharge from terminal to mother card
+确定一键同步司机公司吗？sync Driver company with one click？
+同步成功,synchronization succeeded
+同步失败APP卡充值,app card recharge synchronization failed
+APP账户充值,app account recharge
+邦客惠旅游app订单,Bang Ke Hui travel app ticket
+圈层失败,credit for load failed
+确定要对用户退款吗？refund to user?
+确定要圈层吗？credit for load?
+退款失败,refund fail
+农行,ABC
+已退款,refunded
+退款中,refunding
+Verified：定义为 审核通过 好像有点不合理吧？？？（审核通过，用approved）
+Verifying：定义为  待审核 ？？？？（待审核，用wait approve）
+时间包月，Monthly time
+次数包月，Monthly times
+双免，Shuang Mian（国内专有名词，而且国内才用得到的中国银联技术，直接用拼音替代）
+
+电子现金需上送，electronical cash needs uploading 
+邦客惠App在线消费，Bang Ke Hui online consumption
+电子现金不上送，electronical cash not uploading
+分段交易，Zonal Fare transaction
+发卡行，issuer
+
+门禁出入，Access control
+校园巴士，school bus
+饭堂机，Canteen machine
+机具类型，Machine type
+用于考勤，For attendance
+消息推送，notification push
+是否拍照，photo or not
+温度测量，Temperature measurement
+核载数，load approved
+乘客数量，Number of passengers
+往返行程，Round trip
+纬度方向，Latitude direction
+经度方向，Longitude direction
+是否市内，city in or out
+市内，in city
+市外，outside city
+去程，go direction
+返程，return direction
+东经，East longitude
+西经，West Longitude
+北纬，North latitude
+南纬，south latitude
+进闸记录，entry record
+进闸时间，entry time

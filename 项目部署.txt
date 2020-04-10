@@ -12,7 +12,7 @@
 	端口：80
 	文件目标：/home/cardlan/project/new-merchant-web
 
-新商户平台一键自动部署线上：
+新商户平台一键自动部署测试8.5：
 	URL： http://172.0.8.3:8082
 	账号： dev   
 	密码：cl2008
